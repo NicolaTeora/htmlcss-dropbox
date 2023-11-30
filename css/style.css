@@ -111,5 +111,30 @@ body{
 }
 
 .type_subsription{
-    
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.option_sub{
+    width: calc(100%/ 3);
+    border: 1px solid lightgrey;
+}
+
+.option_sub span{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.option_sub span:first-child{
+    text-align: center;
+    margin-top: 0;
+    padding: 7px;
+    border: 1px solid lightgrey;
+}
+
+.option_sub .start{
+    display: block;
 }
