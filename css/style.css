@@ -1,0 +1,51 @@
+/* ### RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* ### DEBUG */
+
+.debug{
+    border: 1px dashed black;
+    padding: 1rem;      
+}
+
+/* ### UTILIES */
+
+/* caratteristiche del contenitore centrale */
+.container{
+    width: 1080px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* ### HEADER */
+
+.connections{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* testi di selezione nell'header */
+.nav_connection{
+    display: flex;
+    flex-direction: row;
+}
+
+/* tasto a sinistra dell'header INIZIA */
+.start{
+    background-color: rgb(16, 61, 212);
+    color: white;
+}
+
+/* ### MAIN */
+
+/* section contenente il jumbotron */
+.jumbotron{
+    width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: rgb(83, 64, 165);
+}
