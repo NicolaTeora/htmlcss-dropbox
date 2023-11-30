@@ -5,6 +5,10 @@
     box-sizing: border-box;    
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* ### DEBUG */
 
 .debug{
@@ -17,6 +21,7 @@
 /* caratteristiche del contenitore centrale */
 .container{
     width: 1080px;
+    height: 100vh;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -24,6 +29,7 @@
 /* ### HEADER */
 
 .connections{
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -31,21 +37,79 @@
 /* testi di selezione nell'header */
 .nav_connection{
     display: flex;
+    align-items: center;
     flex-direction: row;
+}
+
+.nav_opt{
+    margin: 0 10px;
 }
 
 /* tasto a sinistra dell'header INIZIA */
 .start{
+    padding: 10px;
     background-color: rgb(16, 61, 212);
     color: white;
+    width: fit-content;
 }
 
 /* ### MAIN */
 
 /* section contenente il jumbotron */
+
+.back_jumbo{
+    height: 100vh;
+    background-color: hsl(207.06deg 51.52% 80.59%);
+}
+
 .jumbotron{
     width: 1200px;
     padding: 1rem;
     margin: 0 auto;
-    background-color: rgb(83, 64, 165);
+}
+
+.text_img_jumbo{
+    display: flex;
+}
+
+.presentation{
+    width: 420px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.presentation .start{
+    display: inline-block;
+}
+
+
+
+#title_jumbotron{
+    text-align: left;
+    font-size: 3.7rem;
+}
+
+.image{
+    width: 830px;
+    position: relative;
+    left: 50px;
+    top: 45px;
+}
+
+/* section di inizio container */
+
+/* Titolo h2 */
+.title{
+    margin: 30px auto;
+    font-size: xx-large;
+}
+
+.subscription{
+    margin-left: 20px;
+}
+
+.type_subsription{
+    
 }
