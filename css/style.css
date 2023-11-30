@@ -59,7 +59,7 @@ body{
 /* section contenente il jumbotron */
 
 .back_jumbo{
-    height: 100vh;
+    height: 700px;
     background-color: hsl(207.06deg 51.52% 80.59%);
 }
 
@@ -115,7 +115,7 @@ body{
     margin: 40px auto;
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 /* classi dele tabelle */
@@ -146,4 +146,13 @@ body{
 
 .option_sub .start{
     display: block;
+}
+
+/* soluzione spazio nella tabella(???) */
+.separator{
+    width: 50px;
+    padding: 1px;
+    background-color: lightgray;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
