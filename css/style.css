@@ -339,12 +339,13 @@ button{
 footer{
     background-color: black;
     color: white;
-    display: flex;
-    /* justify-content: space-around; */
+
 }
 
 .close_section{
     width: 1200px;
+    display: flex;
+    justify-content: space-between;
     padding: 1rem;
     margin: 0 auto;
 }
@@ -356,4 +357,11 @@ footer{
 .close_section > ul >li{
     list-style: none;
     padding: 5px 0;
+}
+
+.lenguage{
+    text-align: left;
+    width: fit-content;
+    padding-top: 30px;
+    border-top: 2px solid gray;    
 }
