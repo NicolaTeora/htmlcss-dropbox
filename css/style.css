@@ -326,9 +326,10 @@ button{
 /* section delle domande frequenti */
 .faq div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px grey;
     border-top: 1px grey;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
+    border-top-style: solid;
 }
