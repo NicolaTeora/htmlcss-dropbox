@@ -182,3 +182,10 @@ button{
     justify-content: space-between;
 }
 
+.enterprise > *{
+    margin-top: 25px;
+}
+
+.enterprise > p{
+    margin-bottom: 25px;
+}
