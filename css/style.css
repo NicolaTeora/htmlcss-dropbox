@@ -36,7 +36,7 @@ button{
 /* caratteristiche del contenitore centrale */
 .container{
     width: 1080px;
-    height: 100vh;
+
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -250,4 +250,46 @@ button{
 .advertising a{
     display: block;
     margin: 50px 0;
+}
+
+/* box pubblicità companies */
+#advertising_zone{
+    
+    display: flex;
+
+}
+
+.companies{
+    width: 100vw;
+    display: flex;
+    /* position: fixed; */
+    flex-grow: 1;
+}
+
+.box_advert_comp{
+    height: calc(100vw / 3);
+    width: calc(100% / 3);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo_comp{
+    width: calc(100% / 2);
+    line-height: 100%;
+    align-self: center;
+}
+
+.logo_comp img{    
+    width: 100%;
+    padding: 20px;
+}
+
+.logo_comp p{
+    display: block;
+    padding: 0 1rem;
+}
+
+.box_advert_comp .big_img{
+    width: 100%;
 }
