@@ -222,3 +222,22 @@ button{
 .partner img{
     width: 60%;
 }
+
+/* box illustrazioni operazioni Dropbox */
+.illustration{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_mini{
+    width: 32%;
+    padding: 25px;
+}
+
+.box_mini h4,p{
+    margin-bottom: 20px;
+}
+
+.box_ill img{
+    width: 100%;
+}
