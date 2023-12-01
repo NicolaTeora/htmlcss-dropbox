@@ -293,3 +293,37 @@ button{
 .box_advert_comp .big_img{
     width: 100%;
 }
+
+#cit{
+    background-color: lightgrey;
+}
+
+/* section test free */
+#test_free{
+    width: 100vw;
+    background-color: hsl(207.06deg 51.52% 80.59%);
+}
+
+.start_test{
+    text-align: left;
+    width: fit-content;
+    border: 1px solid;
+    background-color: white;
+}
+
+#test_free > .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#test_free h2{
+    width: 300px;
+    color: darkmagenta;
+}
+
+/* section delle domande frequenti */
+.faq{
+    display: flex;
+}
