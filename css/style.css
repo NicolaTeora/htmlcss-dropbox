@@ -26,6 +26,10 @@ body{
     margin: 0 auto;
 }
 
+button{
+    border: none;
+}
+
 /* ### HEADER */
 
 .connections{
@@ -55,11 +59,6 @@ body{
     text-decoration: none;
     color: black;
 }
-
-.nav_opt{
-    margin: 0 10px;
-}
-
 
 /* tasto a sinistra dell'header INIZIA */
 .start{
