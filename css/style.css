@@ -121,7 +121,7 @@ body{
 /* classi dele tabelle */
 
 .option_sub{
-    width: calc(100%/ 3);
+    width: 100%;
     border: 1px solid lightgrey;
 }
 
