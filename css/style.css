@@ -11,9 +11,9 @@ body{
 
 /* ### DEBUG */
 
-.debug{
+.debug > *{
     border: 1px dashed black;
-    padding: 0.75rem;      
+    padding: 0.5rem;      
 }
 
 /* ### UTILIES */
@@ -41,9 +41,25 @@ body{
     flex-direction: row;
 }
 
+.nav_connection > ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav_connection > ul > li{
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.nav_connection > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
 .nav_opt{
     margin: 0 10px;
 }
+
 
 /* tasto a sinistra dell'header INIZIA */
 .start{
@@ -52,6 +68,10 @@ body{
     color: white;
     width: 100%;
     text-align: center;
+}
+
+.col_40{
+    width: 40%;
 }
 
 /* ### MAIN */
@@ -156,3 +176,10 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/* tabella grande */
+#dir_reverse{
+    flex-direction: row;
+    justify-content: space-between;
+}
+

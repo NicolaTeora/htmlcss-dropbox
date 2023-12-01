@@ -16,18 +16,26 @@
             <div class="logo_drop">
                 <img src="./img/logo-small.png" alt="">
             </div>
-            <div>
-                <span class="nav_opt">Perchè Dropbox</span>
-                <span class="nav_opt">Funzioni</span>
-                <span class="nav_opt">Piani e prezzi</span>
-            </div>
+            <!-- !!!span e div delle nav connection da sostituire con una ul !!! -->
+            <!-- Appunto: meglio usare le convenzioni -->
+            <ul>
+                <li>
+                    <a href="#">Perchè Dropbox</a>
+                </li>
+                <li>
+                    <a href="#">Funzioni</a>
+                </li>
+                <li>
+                    <a href="#">Piani e prezzi</a>
+                </li>
+            </ul>
         </div>
 
         <div class="nav_connection">
-            <div class="nav_opt">Supporto</div>
-            <div class="nav_opt">Contatta l'ufficio vendite</div>
-            <div class="nav_opt">Accedi</div>
-            <div class="nav_opt start">Inizia</div>
+            <span class="nav_opt">Supporto</span>
+            <span class="nav_opt">Contatta l'ufficio vendite</span>
+            <span class="nav_opt">Accedi</span>
+            <button class="nav_opt start">Inizia</button>
         </div>
 
     </header>
@@ -35,7 +43,7 @@
     <main>
 
         <section class="back_jumbo">
-            
+            <!-- Jumbotron -->
             <div class="jumbotron">
                 <div id="title_jumbotron">
                     <h1>Tutto cio che ti serve per il lavoro, in un'unico posto</h1>
@@ -113,7 +121,7 @@
                 </div>
                 <!-- tabella team -->
                 <div class="option_sub">
-                    
+                    <!-- !!! da sostituire con le ul !!! -->
                     <span>
                         <i class="fa-solid fa-users fa-2xs"></i>
                         Team
@@ -216,12 +224,22 @@
             </div>
             
             <!-- tabella del Team -->
-            <div class="option_sub">
+            <div class="option_sub debug">
                 <span> 
                     <i class="fa-solid fa-building fa-xs"></i>
                     Team
                 </span>
-                
+                <div id="dir_reverse" class="details_sub">
+                    <div class="">
+                        <h4>Enterprise</h4>
+                        <h5>Contatta l'ufficio vendite per i prezzi</h5>
+                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                    </div>
+                    <div class="col_40">
+                        <div class="start">Contatta l'ufficio vendite</div>
+                    </div>
+
+                </div>
             </div>
 
         </section>
