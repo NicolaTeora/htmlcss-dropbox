@@ -332,6 +332,7 @@ button{
 .faq div span{
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .faq div{
@@ -349,7 +350,7 @@ button{
 footer{
     background-color: black;
     color: white;
-
+    padding-top: 4rem;
 }
 
 .close_section{
