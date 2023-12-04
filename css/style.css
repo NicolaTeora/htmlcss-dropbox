@@ -291,14 +291,53 @@ button:hover{
 
 .logo_comp{
     width: 50%;
-    /* line-height: 100%; */
     height: 50%;
     padding: 3rem;
     display: flex;
-    justify-content: center;
+    /* line-height: 100%; */
     align-items: center;
+    justify-content: center;
+    filter: invert(1)
     /* background-color: red; */
 }
+
+/* backrground logo companies */
+#arizona{
+    background-color: aquamarine;
+}
+
+#clear_chnn{
+    background-color: #1f1fc1
+}
+
+#topps{
+    background-color: aqua;
+}
+
+#hearts_co{
+    background-color: coral;
+}
+
+#honey{
+    background-color: burlywood;
+}
+
+#wdicycle{
+    background-color: cadetblue
+}
+
+#univ_florida{
+    background-color: brown;
+}
+
+#toppo{
+    background-color: cornflowerblue
+}
+
+.text_cit{
+    padding: 4rem;
+}
+
 
 .logo_comp img{    
     width: 100%;
@@ -310,12 +349,8 @@ button:hover{
     padding: 0 1rem;
 }
 
-.box_advert_comp .big_img{
-    width: 100%;
-}
-
 #cit{
-    background-color: lightgrey;
+    background-color: #bcb3b3;
 }
 
 /* section test free */
