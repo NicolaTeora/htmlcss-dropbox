@@ -324,6 +324,16 @@ button{
 }
 
 /* section delle domande frequenti */
+.container.faq {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.faq div span{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .faq div{
     display: flex;
     justify-content: space-between;
