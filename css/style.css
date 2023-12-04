@@ -33,6 +33,10 @@ button{
     padding: 10px;
 }
 
+button:hover{
+    opacity: 0.5;
+}
+
 /* caratteristiche del contenitore centrale */
 .container{
     width: 1080px;
