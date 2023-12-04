@@ -65,6 +65,11 @@ button{
 .nav_connection > ul > li{
     margin: 0 20px;
     text-decoration: none;
+    line-height: 35px;
+}
+
+.nav_connection > ul > li:hover{   
+    box-shadow: 0 5px 0 0;
 }
 
 .nav_connection > ul > li > a{
@@ -91,7 +96,7 @@ button{
 
 .jumbotron{
     width: 1200px;
-    padding: 1rem;
+    padding-top: 4rem;
     margin: 0 auto;
 }
 
@@ -129,7 +134,9 @@ button{
 
 /* Titolo h2 */
 .title{
-    margin: 30px auto;
+    /* margin: 30px auto; */
+    margin-bottom: 4rem;
+    margin-top: 5rem;
     font-size: xx-large;
 }
 
